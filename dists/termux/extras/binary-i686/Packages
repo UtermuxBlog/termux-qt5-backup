@@ -1,0 +1,307 @@
+Package: libqtxdg
+Architecture: i686
+Installed-Size: 596
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 3.9.1
+Homepage: https://lxqt.github.io
+Depends: qt5-qtbase, qt5-qtsvg, glib
+Description: Qt 5 implementation of freedesktop.org XDG specifications
+Filename: dists/termux/extras/binary-i686/libqtxdg_3.9.1_i686.deb
+Size: 109960
+MD5Sum: 231f255a41f7eaf7743854d366bd5089
+SHA1: 85a54900c4f9a05613297244d8523206211ddb14
+SHA256: 4ce3def104839e969f19f17385f9e255b34ec916ae00cadba939f737022f17b1
+SHA512: 653e0bd8c184bf6d1891187b41871676bed20ba5f0afbdfc22dd33f9433883d2c0780d6426698f3cbfb4a0722d6d4e80512fa5c7e918de3f5ae0d1890138c38d
+
+Package: qt-creator
+Architecture: i686
+Installed-Size: 75436
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 4.12.4-6
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, qt5-qtdeclarative, qt5-qtxmlpatterns, qt5-qttools, qt5-qtx11extras, qt5-qtsvg, llvm, clang
+Recommends: gdb, git, make, cmake, valgrind
+Suggests: cvs, subversion
+Description: Integrated Development Environment for Qt
+Filename: dists/termux/extras/binary-i686/qt-creator_4.12.4-6_i686.deb
+Size: 15957220
+MD5Sum: f0b9f683350057dfe4e9643a225ca834
+SHA1: a32c9880134830e12dd4202d511146384b608edc
+SHA256: e38a4c5ab6c44201f92767724d4d5b4e3a4aa75436b053948e2c0bf0d8d2ed7d
+SHA512: bcc213fdb969fd0494c53eb594e6fbcbe3fa5fbd8398dc317ae1ca42b8c08daf0e53e8d858c0a42edc8c07ce27c5631fdfaadc0f6711108d2034ae8efcfb350d
+
+Package: qt5-qtbase-cross-tools
+Architecture: i686
+Installed-Size: 54564
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3-4
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, qt5-qtbase (= 5.15.3-4)
+Description: Tools for cross build on the host (NOT for Termux)
+Filename: dists/termux/extras/binary-i686/qt5-qtbase-cross-tools_5.15.3-4_i686.deb
+Size: 12852528
+MD5Sum: 45da1d8c387788ed177d379c1b588e39
+SHA1: cf608c2b9735da341ddc59ecc838f0189e4f4fec
+SHA256: 7bee429cc599ba0006e40fad71d8ebce250c6fe2352736287638ee981a1536a5
+SHA512: e3297d744658c4bf86fb143003aa03c357f1ec141e5781f1a00e355ff5fe00238eaa9a5a0196fa1d45a19c006d7b8c4f4a7f368f8ed35907e14f2363b3308b2b
+
+Package: qt5-qtbase-gtk-platformtheme
+Architecture: i686
+Installed-Size: 304
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3-4
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, gtk3, qt5-qtbase (= 5.15.3-4)
+Description: GTK+ 3 platform theme for Qt 5
+Filename: dists/termux/extras/binary-i686/qt5-qtbase-gtk-platformtheme_5.15.3-4_i686.deb
+Size: 71532
+MD5Sum: 6e13446a45ccfc862963ee7cc5093819
+SHA1: 86f3a0a4667716f5c0c4c7ab21ce672f0a8dca81
+SHA256: 4a09905a56dfdc43054db82d0ac9e30be1ad860f0444fc4099fdd675e8d3de03
+SHA512: 36c21d86d610ddcbe0fcc4463bd9e339af38625689d0986403afd2542b22771fd9511394893e2f272a65c48fa014286790b2d39f74f408e08a9290063cfc403b
+
+Package: qt5-qtbase
+Architecture: i686
+Installed-Size: 65988
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3-4
+Homepage: https://www.qt.io/
+Breaks: qt5-x11extras, qt5-tools, qt5-declarative
+Depends: dbus, double-conversion, harfbuzz, libandroid-shmem, libandroid-sysv-semaphore, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, freetype, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib, glib
+Replaces: qt5-base
+Description: A cross-platform application and UI framework
+Filename: dists/termux/extras/binary-i686/qt5-qtbase_5.15.3-4_i686.deb
+Size: 11008404
+MD5Sum: ca04a77e0d376b9bae2615344f15e11b
+SHA1: 7215e86e1baa28963b27f464f2ab57a34eabeec1
+SHA256: 06d961e23895384c22263ae5d825b86ce1277e6d9133c71326e9e887c325f912
+SHA512: f5e02ce4b6fe4f7dfb296a0d19991a0493ec6bcb50c28df89c91c03e7f595a26d696e0cddfeb53537bf5249b211ea374a20c092124ab5b6f735e98a58113746f
+
+Package: qt5-qtdeclarative-cross-tools
+Architecture: i686
+Installed-Size: 9972
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3-1
+Homepage: https://www.qt.io/
+Depends: qt5-qtdeclarative, qt5-qtdeclarative (= 5.15.3-1)
+Description: Qt declarative module for cross build (NOT for Termux)
+Filename: dists/termux/extras/binary-i686/qt5-qtdeclarative-cross-tools_5.15.3-1_i686.deb
+Size: 1120212
+MD5Sum: f5fb2960b5b3dfb64c4d01abd7fd0317
+SHA1: de457d600525256eedba8328fdcdfc11e9c8a1fc
+SHA256: d2c94696085fc0b6d7027725665b7a8e23fa2403d2da0e39713734e815d63416
+SHA512: a0a3c00b059ea9f08c5ccfe74b7d2093bc4149a15b640f6d10a8efa81c358c6f5deb51b3478a9e5ebb6d5981297add46f2ecaa4c7831bce869cf67358cd1004b
+
+Package: qt5-qtdeclarative
+Architecture: i686
+Installed-Size: 26024
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3-1
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase
+Replaces: qt5-declarative
+Description: The Qt Declarative module provides classes for using GUIs created using QML
+Filename: dists/termux/extras/binary-i686/qt5-qtdeclarative_5.15.3-1_i686.deb
+Size: 4074928
+MD5Sum: 5e4d2e4636d104d017cc55ce04f41607
+SHA1: c39d4e7ad3cd3c9cbdc5e85d2484dc33ca39ce67
+SHA256: e9c9328eeb6a3ce42e2273a23e54fe599bd79d15eafb073a0afb2c9deac91b65
+SHA512: 7c119d69679f42e68f179df4ec088ef6a49b65a0498fa1b4dfa4270c90ed4beeb82e0799a1900884e65865b75648593c4f52e1504de762e3e05abc70a5b51cf2
+
+Package: qt5-qtlocation
+Architecture: i686
+Installed-Size: 5896
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, qt5-qtdeclarative
+Description: Qt 5 Location Library
+Filename: dists/termux/extras/binary-i686/qt5-qtlocation_5.15.3_i686.deb
+Size: 950224
+MD5Sum: f1caf09beeddd71056b9531d40b2f715
+SHA1: c3bf38e045d872d64e59ed78e23e147301181c1c
+SHA256: 3629dde6d0b61365e0c673695947c28d32e1871f24d85f4c6f615012f32418d5
+SHA512: 8d50c4459db15d857689bc68e3862647a3a3d6768e099c8a4bcd9ab3074ca0de5890c1166387c75e577772689854e3ac52c36b0e66da660ed2f3e7a4e5f4051c
+
+Package: qt5-qtmultimedia
+Architecture: i686
+Installed-Size: 3880
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, pulseaudio, openal-soft, gstreamer, gst-plugins-base, gst-plugins-bad
+Description: Qt 5 Multimedia Library
+Filename: dists/termux/extras/binary-i686/qt5-qtmultimedia_5.15.3_i686.deb
+Size: 547056
+MD5Sum: c48553d50af398611fb1c83c4e298389
+SHA1: adf9ccce19eaaa2d8054fea09059a2b111c1076b
+SHA256: 33244a942105af29d7f26701c37bb08e7c280643b9701801db8cdfa715b4d884
+SHA512: 6be00f9ca658340593a2daac5bbfa5011c854288fb94b4d89cf3f1535edacdd6453e5f405891c8a0d77868ce9dee90acbfc2137028db2713c1247a594fc86e60
+
+Package: qt5-qtquickcontrols2
+Architecture: i686
+Installed-Size: 9356
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, qt5-qtdeclarative
+Description: Qt Quick Controls2 module
+Filename: dists/termux/extras/binary-i686/qt5-qtquickcontrols2_5.15.3_i686.deb
+Size: 1337460
+MD5Sum: 355d79879c7e74870fba538675d1fe75
+SHA1: 847de9bf1b5d01d74c3097e7d79499772536305d
+SHA256: 0e885f736263f57089bde4f835602a25cfa886a3d5b34919fadd8173f71b4fdf
+SHA512: fff4c262c38cf5253d7ea3a2537a59d37ea17dad5df6ec1f54f6c37c8217030c0dc4a862530ac0a246e9d51a4dddda4215452def143326fc3d5c8e1055c15d90
+
+Package: qt5-qtquickcontrols
+Architecture: i686
+Installed-Size: 932
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, qt5-qtdeclarative
+Description: Qt Quick Controls module
+Filename: dists/termux/extras/binary-i686/qt5-qtquickcontrols_5.15.3_i686.deb
+Size: 212768
+MD5Sum: 819630e2823b3841d6ece9b8189dcd5d
+SHA1: 72f473fa8523d1f902d23b4fff0c91b52d03d3b3
+SHA256: d84aaaae5bebe9b202abb5c9fbe7fc21ef56a3e8d007208680b9c12b7447e981
+SHA512: 234a5ece7f0a98f6724b1fd33e165baff35d73e81fa816b0a3c92bf1dda9c35cabab859c011148ca1d520e53596336f2a723d75f04dde9c4cf53b2c66755f823
+
+Package: qt5-qtsensors
+Architecture: i686
+Installed-Size: 1268
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, qt5-qtdeclarative
+Description: Qt 5 Sensors Library
+Filename: dists/termux/extras/binary-i686/qt5-qtsensors_5.15.3_i686.deb
+Size: 129548
+MD5Sum: 1a4dbad2a8fa10f8b85e3880969c867e
+SHA1: fbf8294273ca57f81eede5bd9192074b548fa30f
+SHA256: 22d404f23482776869db168959f60f38349111d5785ae69c70e60e9f8f7d23a8
+SHA512: bac1dc1972e64f49b25c778faf6e3e01f6e812e7261015586fe64c89883f1050aae7e06d689b0dceba91a6fd4d8ce8522461b9bc54d1116aff4818506d30e171
+
+Package: qt5-qtsvg
+Architecture: i686
+Installed-Size: 636
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase
+Description: Qt SVG Library
+Filename: dists/termux/extras/binary-i686/qt5-qtsvg_5.15.3_i686.deb
+Size: 121732
+MD5Sum: 9a582526c44ee0406c198b1dce0e833f
+SHA1: 0daf9515e89a06e390c8d16e127972d1604a82e8
+SHA256: e81049784122e7f916241869f8fbf8a2a9b845a1643ca68e3ae47a06b6737608
+SHA512: be8cce7793a1238714d356f9dfcc4723ae3757c24e4bad620bb70dae38e3ed817735c8685a9e072f57f6f17a29d7edb16711cc3d448e0ec53aa9786efbd7c685
+
+Package: qt5-qttools-cross-tools
+Architecture: i686
+Installed-Size: 7796
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3-1
+Homepage: https://www.qt.io/
+Depends: qt5-qttools, qt5-qttools (= 5.15.3-1)
+Description: Tools from qttools module for cross build on the host machine
+Filename: dists/termux/extras/binary-i686/qt5-qttools-cross-tools_5.15.3-1_i686.deb
+Size: 984340
+MD5Sum: a3fdb4ca482244106e7bdfbba3d12866
+SHA1: 1e41ac9f806bf3c4706e04f8f6ddd462057feca5
+SHA256: 5f45bdac988e3e181531592eceda75238613d8a5b4fb9776da8fc9a6cf03bc10
+SHA512: 47ecce079c74dda3e3f5396c7fcdad24b9af2019d5c3fb5ffcb38f4e2e0de5f501d43c0e24628b012bd953788906fd2668e05567a61f32af333f99306886d87e
+
+Package: qt5-qttools
+Architecture: i686
+Installed-Size: 19492
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3-1
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, qt5-qtdeclarative
+Replaces: qt5-tools
+Description: Qt Development Tools (Linguist, Assistant, Designer, etc.)
+Filename: dists/termux/extras/binary-i686/qt5-qttools_5.15.3-1_i686.deb
+Size: 5013116
+MD5Sum: 5f5bc1e74f9cf862fd84a8ae4cef6d33
+SHA1: b7085946ed04de8511464ff02b83a319292acfbd
+SHA256: 039a1f22101386438ee7eff227b4412fa4cdb44970514491b6f25e67894e4222
+SHA512: 9870fe538623f50c3e84dd7f95e10c06e1ebd876c9c773909e9fd839009fd38447f566f69d3027947984cd0a936cdfd0ea90d1d17802b64c7f483f28fce06b4b
+
+Package: qt5-qtwebchannel
+Architecture: i686
+Installed-Size: 360
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, qt5-qtdeclarative, qt5-qtwebsockets
+Description: Qt 5 WebChannel Library
+Filename: dists/termux/extras/binary-i686/qt5-qtwebchannel_5.15.3_i686.deb
+Size: 60388
+MD5Sum: 5e0e14f42bbb8f240b4ac9e47f5dd5be
+SHA1: d27249d4d3b1fecf1ef2dfb912d8a9cc569b77fa
+SHA256: 941721e6080b1befa7fc8fc0bc278057835a35c18b7ba665a7ae41560b59e5fc
+SHA512: 70ff488f4bed82a40fad69dadbf421714655454b7afa783d10a631f6592236d9df547519b563c26dc7d74b329b68f4ce3cf8bc234d600c749e91701691cd8963
+
+Package: qt5-qtwebsockets
+Architecture: i686
+Installed-Size: 472
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, qt5-qtdeclarative
+Description: Qt 5 WebSockets Library
+Filename: dists/termux/extras/binary-i686/qt5-qtwebsockets_5.15.3_i686.deb
+Size: 66680
+MD5Sum: 1cc5b6cd795d59b2b606e56778b1c185
+SHA1: 5d70ccaa64f39be6e2a690b7fee83a4c2b67a944
+SHA256: 3dceac93b6af64bae4a3a9fa669cae432c1a6acb5ae7931efaf73d6e3e2f92ed
+SHA512: 711442ba83483df7a6efb344f278a7d4c27a32ee5eb28bc21dc3e246657f4ebb67e7f5e68d0bf0bd678a29c8a2cd929b915c830905f862b8390309cc1691da9b
+
+Package: qt5-qtx11extras
+Architecture: i686
+Installed-Size: 144
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase
+Replaces: qt5-x11extras
+Description: Qt X11 Extras enables the Qt programmer to write applications for the Linux/X11 platform
+Filename: dists/termux/extras/binary-i686/qt5-qtx11extras_5.15.3_i686.deb
+Size: 10120
+MD5Sum: 17e43124d8d6a918e29054bf8a753f59
+SHA1: 121bbf998aa211221c2789f90d50cd31553ddd06
+SHA256: f8deeeafb9319394cecd33678afe978dfb662a31460b0ab881e3911d6a96fb66
+SHA512: 40b297c6a992204bce88daaf240bdc436b085bd418370379b7e1b078558802c86ecab976df0ab1758e45ea073eb88f0893f1b1dedce7081f2c2016cfca5bc464
+
+Package: qt5-qtxmlpatterns
+Architecture: i686
+Installed-Size: 7428
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.3
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, qt5-qtdeclarative
+Description: Qt XmlPatterns Library
+Filename: dists/termux/extras/binary-i686/qt5-qtxmlpatterns_5.15.3_i686.deb
+Size: 1137200
+MD5Sum: 67e79dd5441991d6ad947e7b09328fa0
+SHA1: a0de0dbb72d0bc59714bdd529cc36718d44fb221
+SHA256: 1016d2234e6de2e7547eceb81f4e42751a5fad2cb2b99fd56b497c1bc5ce3768
+SHA512: a8d687122935eef20ad88aac15cf4358b785fd6723199a1f8e20e2745a39d78c72a0ab49a66b4b566d6b8dd79164df0c6f4d704813ff8441ebe07541d67fd3ba
+
+Package: qt5ct
+Architecture: i686
+Installed-Size: 1048
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 1.3-1
+Homepage: https://sourceforge.net/projects/qt5ct
+Depends: qt5-qtbase, qt5-qtsvg
+Description: Qt5 Configuration Tool
+Filename: dists/termux/extras/binary-i686/qt5ct_1.3-1_i686.deb
+Size: 196828
+MD5Sum: ff33c4b8bf1a8ca863702c689b78deaf
+SHA1: 006827f62616eed208a6fb2fca04a84c1b3d617e
+SHA256: 7f6b065a16b7a1e6e0fa4791c7cc6e8facb76c17520fd10e5dd8c1099f0ade9a
+SHA512: 00b8138eb6b1166951803033047885e874a87f61c64c67585a08be5e43c46d98fbb6ac634b835a77447af0c04767f4e524137f7639ef55a6e9fa7644278078a3
+
