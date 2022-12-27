@@ -6,7 +6,7 @@ Version: 3.9.1
 Homepage: https://lxqt.github.io
 Depends: qt5-qtbase, qt5-qtsvg, glib
 Description: Qt 5 implementation of freedesktop.org XDG specifications
-Filename: dists/termux/extras/binary-aarch64/libqtxdg_3.9.1_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/libqtxdg_3.9.1_aarch64.deb
 Size: 99272
 MD5Sum: aa3f71f56a6f1781f748350ac6f7e764
 SHA1: c3d20d71d5e601b8e564f624258bd2eea7c5dd80
@@ -23,12 +23,29 @@ Depends: qt5-qtbase, qt5-qtdeclarative, qt5-qtxmlpatterns, qt5-qttools, qt5-qtx1
 Recommends: gdb, git, make, cmake, valgrind
 Suggests: cvs, subversion
 Description: Integrated Development Environment for Qt
-Filename: dists/termux/extras/binary-aarch64/qt-creator_4.12.4-6_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt-creator_4.12.4-6_aarch64.deb
 Size: 13605224
 MD5Sum: 15ea0d61c8691f4a9acba9e4dcfa4bc8
 SHA1: 00eb224a2b58540ad874baf117d7cb203b34330d
 SHA256: fdb7280cd756b057238e0074eb6133e82d99263f257f10a9ef8c61a611e50898
 SHA512: 3c591e8478b416883fe4aabd7928ef6cb85eb5e67557f7425c6a8f26cf462333dcae4d430e1640423e1ee01385660702637f6b9257394ac4d5b75ce9c6cdc925
+
+Package: qt5-qmake
+Architecture: aarch64
+Installed-Size: 3688
+Maintainer: @termux
+Version: 5.15.5
+Homepage: https://www.qt.io/
+Breaks: qt5-qtbase (<< 5.15.7)
+Depends: qt5-qtbase
+Replaces: qt5-qtbase (<< 5.15.7)
+Description: Qt 5 QMake
+Filename: dists/termux/qt5/binary-aarch64/qt5-qmake_5.15.5_aarch64.deb
+Size: 889048
+MD5Sum: da30d69d93bb3afbe53446a9a571cb70
+SHA1: 3cbe6e84c35ce7418f50cc7c7125dac16a0c3a4c
+SHA256: 17ddb3293e535485c37b5a0ce63c98a0cdc124a3e2ae0fbe1f2fc05275cefde9
+SHA512: 5d0bc1817dfa479e5a6d784e2d726d0b23b63e26c0ebed62db5e1f8f33f1bcf4bd5d03e05b9fd663009b84978286d73f4f2b17f847511864e940f37119b1e5e4
 
 Package: qt5-qtbase-cross-tools
 Architecture: aarch64
@@ -38,12 +55,27 @@ Version: 5.15.3-4
 Homepage: https://www.qt.io/
 Depends: qt5-qtbase, qt5-qtbase (= 5.15.3-4)
 Description: Tools for cross build on the host (NOT for Termux)
-Filename: dists/termux/extras/binary-aarch64/qt5-qtbase-cross-tools_5.15.3-4_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtbase-cross-tools_5.15.3-4_aarch64.deb
 Size: 12849744
 MD5Sum: 38caf9e002d267a1869f04d2becb17e8
 SHA1: c19c7b9744d11765d2260679f77ed7eb4b0dce62
 SHA256: f15a9e73d6744bbf6aabc5cc10c7bbf3e5d9221e239c54cc7d01f3d2d83b7dda
 SHA512: c52bee53a56a8c7dff8ea998f3e0c93a7a785b041d1b708aa31041b4117765a088b73f2d94008cee39b930aab8e2c06bb697e96a241b15a899e455f0c7cd3407
+
+Package: qt5-qtbase-cross-tools
+Architecture: aarch64
+Installed-Size: 54612
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, qt5-qtbase (= 5.15.7)
+Description: Tools for cross build on the host (NOT for Termux)
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtbase-cross-tools_5.15.7_aarch64.deb
+Size: 12715840
+MD5Sum: 1ba948fa0710b0ddba4f84c9967195bf
+SHA1: 6dfe05cf7d35cd9f4454609ad56da2ea92c73fed
+SHA256: 77cb2e479aa03ed7dc47edaad2438bbf79c331ce2070239e4fb2fe6f29c5bbbc
+SHA512: 80269e3d6c02a16c9c84e2afa622b74430849fe6a5adeb94cbcc9cb57099d57217490136a5553dd9a6bdb6b97c54ef29b3ab8ab62ca438a6b80818c4bf7b29b4
 
 Package: qt5-qtbase-gtk-platformtheme
 Architecture: aarch64
@@ -53,12 +85,27 @@ Version: 5.15.3-4
 Homepage: https://www.qt.io/
 Depends: qt5-qtbase, gtk3, qt5-qtbase (= 5.15.3-4)
 Description: GTK+ 3 platform theme for Qt 5
-Filename: dists/termux/extras/binary-aarch64/qt5-qtbase-gtk-platformtheme_5.15.3-4_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtbase-gtk-platformtheme_5.15.3-4_aarch64.deb
 Size: 67892
 MD5Sum: ad0298d75285bee6fcabb384e0eb086d
 SHA1: f813ecb54a5df783a35847ad03cce88b234ddd09
 SHA256: 2662f1342626042f0b26f5b563090b7ec0c6528111e691bcbe8dbcceef76ec17
 SHA512: a831843f29bcbf6cd7134facb9ca495cbedf1e24ea59b64929bebd8a248ac6041c21c6c142690f867be4a4c3620e5d5384a84bfcdf218d3ca935bcd454d3cc76
+
+Package: qt5-qtbase-gtk-platformtheme
+Architecture: aarch64
+Installed-Size: 352
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: qt5-qtbase, gtk3, qt5-qtbase (= 5.15.7)
+Description: GTK+ 3 platform theme for Qt 5
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtbase-gtk-platformtheme_5.15.7_aarch64.deb
+Size: 69272
+MD5Sum: 42d20385442a945e7f06de261ba180bf
+SHA1: 4c015f938b29b6931a58e3b501d0021b3e893593
+SHA256: d6031f83e9f7e2530f61ade6f3c3223f9db4d4604a220b9a300e5482b7abb03c
+SHA512: 6bbc4f8ea0ae93ebb82cd8d19d5fd0748dab42377aa99f3ad7173cd4f28a7d95dfe22e4e15bc635b0db69c8f0fe749ac137c0252a4c121c5aa889b20281eda55
 
 Package: qt5-qtbase
 Architecture: aarch64
@@ -70,12 +117,30 @@ Breaks: qt5-x11extras, qt5-tools, qt5-declarative
 Depends: dbus, double-conversion, harfbuzz, libandroid-shmem, libandroid-sysv-semaphore, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, freetype, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib, glib
 Replaces: qt5-base
 Description: A cross-platform application and UI framework
-Filename: dists/termux/extras/binary-aarch64/qt5-qtbase_5.15.3-4_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtbase_5.15.3-4_aarch64.deb
 Size: 10083428
 MD5Sum: c1be7b6a9bc0c56842fa576e66e2c39c
 SHA1: 831541c12c19999d59584c079a4b5161eae99d12
 SHA256: 603c77c2291b5f2a818f5f440f03556bba1706b7b6aee6b5a9612be566f8b54b
 SHA512: 5affe2dfa9ff90ccea9b7a24796aa1a1d82369035a80e706c33d4d2a059371ab4ea12019033cb60e96ac2f8622175d38331b845bdc62fb4016bb9dd1bd26222a
+
+Package: qt5-qtbase
+Architecture: aarch64
+Installed-Size: 64500
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Breaks: qt5-x11extras, qt5-tools, qt5-declarative
+Depends: dbus, double-conversion, harfbuzz, libandroid-shmem, libandroid-sysv-semaphore, libc++, libice, libicu, libjpeg-turbo, libpng, libsm, libuuid, libx11, libxcb, libxi, libxkbcommon, openssl, pcre2, ttf-dejavu, freetype, xcb-util-image, xcb-util-keysyms, xcb-util-renderutil, xcb-util-wm, zlib, glib
+Replaces: qt5-base
+Suggests: qt5-qmake
+Description: A cross-platform application and UI framework
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtbase_5.15.7_aarch64.deb
+Size: 9337996
+MD5Sum: 1860c964542a24ab465c4f824b706c36
+SHA1: c81d70ef8e2b3397ec7fdd3772455e4eab4f122f
+SHA256: 2fd109fdaf835ce8909b639ebfa054118b622bd5784f5cd4dfa9f97340ce453c
+SHA512: 8e7f104cdb96a5bf9437220c637c2e9c719240eb1fee53b0d122bd28c6ed82d80265217456a20b3c77d01bffd6f098beb161d586bf5f54875232d96dc35b8852
 
 Package: qt5-qtdeclarative-cross-tools
 Architecture: aarch64
@@ -85,12 +150,27 @@ Version: 5.15.3-1
 Homepage: https://www.qt.io/
 Depends: qt5-qtdeclarative, qt5-qtdeclarative (= 5.15.3-1)
 Description: Qt declarative module for cross build (NOT for Termux)
-Filename: dists/termux/extras/binary-aarch64/qt5-qtdeclarative-cross-tools_5.15.3-1_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtdeclarative-cross-tools_5.15.3-1_aarch64.deb
 Size: 1120260
 MD5Sum: a6819b10814919c5c9ef58690ce6d376
 SHA1: 7ef19c58614320083ebad89e56319e8ee25951d4
 SHA256: a7f2871e96f0820c3e6d96f864ca142e8e125e97f8de8de08052be3f2a5e292e
 SHA512: d6db896837c97f7af9c0f9682b656cd30c3decdb5e5a95bbafeeab9a56cdd763b8243f24b29c052331bde7b929f2d0224518b516cb207f9dd412ed84b92db9b4
+
+Package: qt5-qtdeclarative-cross-tools
+Architecture: aarch64
+Installed-Size: 9984
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: qt5-qtdeclarative, qt5-qtdeclarative (= 5.15.7)
+Description: Qt declarative module for cross build (NOT for Termux)
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtdeclarative-cross-tools_5.15.7_aarch64.deb
+Size: 1116520
+MD5Sum: 49fac943b7d582e7c4214063394baa2a
+SHA1: cad538e8ae2103aae0d907aae7ab13ce0b988f5e
+SHA256: 473ac011dfcad0be8b5589fd7efcdade3a8e6a7de99b761f075c89499ad362d3
+SHA512: 6be8e66061b5206beea975e28869ab016c7e866198bb1701a51cda7968fb974d37c6ff6144694bf85435908b9477326bf2e602776b887b36a594643cc024423e
 
 Package: qt5-qtdeclarative
 Architecture: aarch64
@@ -101,12 +181,43 @@ Homepage: https://www.qt.io/
 Depends: qt5-qtbase
 Replaces: qt5-declarative
 Description: The Qt Declarative module provides classes for using GUIs created using QML
-Filename: dists/termux/extras/binary-aarch64/qt5-qtdeclarative_5.15.3-1_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtdeclarative_5.15.3-1_aarch64.deb
 Size: 3879716
 MD5Sum: d3bf3e28d64d32e3614cec59d6983614
 SHA1: 38428e3c1cf765aeeaf35a6e3f4ae4e22b79765d
 SHA256: 2c3bd6a3f0d706e2003d9412d32a766e2d595705fa310a362028a2c26f15be4f
 SHA512: b3fe29b43ff6808ded106e5724603799aa9a69851c93fa897af0c9703c8b3b0b1414793066e7a617e1bf8a1fcd6a4414f1e6c36bb387499c69ba7422f5df7072
+
+Package: qt5-qtdeclarative
+Architecture: aarch64
+Installed-Size: 28444
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: libc++, qt5-qtbase
+Replaces: qt5-declarative
+Description: The Qt Declarative module provides classes for using GUIs created using QML
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtdeclarative_5.15.7_aarch64.deb
+Size: 3916872
+MD5Sum: 79d443eb757349595561671ded06d77b
+SHA1: bf734145732ff82eb405245d878ed856c0bf32b7
+SHA256: 5617342fd35fe158c19d8bbebf16421f7a0684f1e9488495661b63f27fe238fb
+SHA512: 9362d7cd090b0a7994aa18581b95385248fd1c4d75469b53d7528ac5fe7b3ba5a62e0ad214fa456d122f7380414bd77784a04740d92b9c83d3068741d6b819df
+
+Package: qt5-qtgraphicaleffects
+Architecture: aarch64
+Installed-Size: 664
+Maintainer: @termux
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: libc++, qt5-qtbase, qt5-qtdeclarative
+Description: Qt Graphical Effects Module
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtgraphicaleffects_5.15.7_aarch64.deb
+Size: 60808
+MD5Sum: 09f9bcd27f57ce1ddc005f48b0d21a42
+SHA1: 83bb4f837e7f3f4cc169a98c66aa381139e4a2eb
+SHA256: 66f1bab49f82072981d02ab657ca8c55368d88559cba173c9d05383f15442a8b
+SHA512: fd234b5dccd636c73a8e633ea0c8ee496cd50e7df91e660d90b8b562099144f85eaf200888167499e8146ccfcefedc374ef439c28805349940f28d9ec99e8269
 
 Package: qt5-qtlocation
 Architecture: aarch64
@@ -116,12 +227,27 @@ Version: 5.15.3
 Homepage: https://www.qt.io/
 Depends: qt5-qtbase, qt5-qtdeclarative
 Description: Qt 5 Location Library
-Filename: dists/termux/extras/binary-aarch64/qt5-qtlocation_5.15.3_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtlocation_5.15.3_aarch64.deb
 Size: 885316
 MD5Sum: c8980151a98b70a933a5eeddb6e04a96
 SHA1: dd855e0f097b77ce1e163ece4aa120aa9f4d8e44
 SHA256: 1a8b1418eaf08b902a1c9ba9ff05cd100006ac4871e0018e8f72c11ecdb8c948
 SHA512: 8e45ca8e06248663cffce3e7bce8e9bfb076a413c0bee3d8c7dcb57fd49b2e3ba11b54b8716c9ac66668f6660bd1ef4fbcd7eef7b10c0bf293462c6eba9783e2
+
+Package: qt5-qtlocation
+Architecture: aarch64
+Installed-Size: 6260
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: libc++, qt5-qtbase, qt5-qtdeclarative
+Description: Qt 5 Location Library
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtlocation_5.15.7_aarch64.deb
+Size: 890576
+MD5Sum: b169a926fedb80581d3a18f41f4ec92a
+SHA1: 3c46b2ca525fbb0656d8d31a8c5cab00bf58ce76
+SHA256: 8f529bc9ca5556a27f21ebfab6b33aff560c405538d5133949ecf372d362b736
+SHA512: 22f9f103d46cbe53e954b95d2aafa3772f2b7cce91c0682355e8273d193a6fabae99d4aeb59aa9e103e4239225b17828fb674b2c8c8ba538a3d5c226c3b7b6e0
 
 Package: qt5-qtmultimedia
 Architecture: aarch64
@@ -131,12 +257,27 @@ Version: 5.15.3
 Homepage: https://www.qt.io/
 Depends: qt5-qtbase, pulseaudio, openal-soft, gstreamer, gst-plugins-base, gst-plugins-bad
 Description: Qt 5 Multimedia Library
-Filename: dists/termux/extras/binary-aarch64/qt5-qtmultimedia_5.15.3_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtmultimedia_5.15.3_aarch64.deb
 Size: 539384
 MD5Sum: 5d0f55705b9bc8abeaa0adcc594ea751
 SHA1: 7ab65f36557855685093ed61d8e52db4e09bf499
 SHA256: 469342243bee7f74cfb9988cbbcb4d866845290d262f19e10c9ffb4eb191d0a4
 SHA512: 19f85e03554496d2fc6a154d19b0c8993b8c6a7e7af502b6e7f407ee42fd56e8d9c53bd61fb9f42624bdcccf4ff9276b7e5c4b0298b88f787d4f1dd1d297e5e0
+
+Package: qt5-qtmultimedia
+Architecture: aarch64
+Installed-Size: 4280
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: libc++, qt5-qtbase, pulseaudio, openal-soft, gstreamer, gst-plugins-base, gst-plugins-bad
+Description: Qt 5 Multimedia Library
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtmultimedia_5.15.7_aarch64.deb
+Size: 539916
+MD5Sum: de57b254d83bcd3854ee80e8036c45d3
+SHA1: 3c9b12dbad1b10e038e78895cf7bf4dc69f00e70
+SHA256: af770b5507d7300cfd7719d009b9fc4fb6950ff5ed3664e3f5e2379582915527
+SHA512: 427b087411b9204fc538a6a457a4a7633f83e376c3fc92d98aff50632998786b5f6bd38e35c806d784a10a1d54c033c51fcaee8cc0a780ee9ac89188d7990d4f
 
 Package: qt5-qtquickcontrols2
 Architecture: aarch64
@@ -146,12 +287,27 @@ Version: 5.15.3
 Homepage: https://www.qt.io/
 Depends: qt5-qtbase, qt5-qtdeclarative
 Description: Qt Quick Controls2 module
-Filename: dists/termux/extras/binary-aarch64/qt5-qtquickcontrols2_5.15.3_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtquickcontrols2_5.15.3_aarch64.deb
 Size: 1343004
 MD5Sum: 4796ad7547ed1e6017bc7c4a5de1a8c5
 SHA1: 4637a344f952c07e083b291e71f32c868f3ee583
 SHA256: 81d286581691cf82f82ad3d49a5be728cfc1fdfeea9cb0d3e95d4d3fd551619d
 SHA512: db1d97f2b9e6c9cf64616d73be801ee90ff194de842573b02695ec69d4f72e3d95341e4a73f0550d970c588ef4ae7dd473a8434d93d8efad0b018a47bc5bca01
+
+Package: qt5-qtquickcontrols2
+Architecture: aarch64
+Installed-Size: 9988
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: libc++, qt5-qtbase, qt5-qtdeclarative
+Description: Qt Quick Controls2 module
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtquickcontrols2_5.15.7_aarch64.deb
+Size: 1338884
+MD5Sum: 6275c369d3f52ceb8c8f7f4cc2e3be0f
+SHA1: ee60f810865fbb55879d7f8d7625a19f5c7d07e9
+SHA256: c2f32d78064f2073569af06f0ba5125fa58fe57ac7e8705776155cdd54098857
+SHA512: 0f6b337c2318fb0ccb8f1017fd1d63ff4369afc7ddee76c7daada631b3dea45a0d5acc11813c6a5456606144feb907f16d056eca78f473c89eb1de85c750be9b
 
 Package: qt5-qtquickcontrols
 Architecture: aarch64
@@ -161,12 +317,42 @@ Version: 5.15.3
 Homepage: https://www.qt.io/
 Depends: qt5-qtbase, qt5-qtdeclarative
 Description: Qt Quick Controls module
-Filename: dists/termux/extras/binary-aarch64/qt5-qtquickcontrols_5.15.3_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtquickcontrols_5.15.3_aarch64.deb
 Size: 213520
 MD5Sum: 073df542a4a6f3d56cf9f03113656869
 SHA1: 784f7c8d73cabb693286ededa33d42b173b4cecb
 SHA256: 9187a00e6830a1041677b49b49b4bf41296d050eb4dc22081cc308b647d86464
 SHA512: 2ff24323e82589594f91cec6f55432089f66207655f9038bf516ee03dbb35835c0710e3208a8df8eb3a7334c82f4e8128171fcb01e82f05fcc4c4bc44555c38d
+
+Package: qt5-qtquickcontrols
+Architecture: aarch64
+Installed-Size: 952
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: libc++, qt5-qtbase, qt5-qtdeclarative
+Description: Qt Quick Controls module
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtquickcontrols_5.15.7_aarch64.deb
+Size: 212952
+MD5Sum: 33daa1b477f9457afb3fd8dd1eadbaf8
+SHA1: 81f1448dae4288deda1db3590d0c83e1c54fce91
+SHA256: cae42e7e7c9311025feaa1c89eec3fa820d3dae2206721277153e66a480624ef
+SHA512: 89399cd8da118ed3ac24451d52e1ed85e38bd9faf947c2c0045129096de043bfa7fb082a9c109abcc1dc144e7f3d9dc8be0c56ff5de260d4fed1186171628289
+
+Package: qt5-qtscript
+Architecture: aarch64
+Installed-Size: 3468
+Maintainer: @termux
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: libc++, qt5-qtbase
+Description: Qt script module
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtscript_5.15.7_aarch64.deb
+Size: 613892
+MD5Sum: 00b72499617a753c7ee69be68d516b9d
+SHA1: 93c5992f5418ceb9405a5fcaa6ba668c39b8ea41
+SHA256: e958347c74307e56421296dc3c4fc505f5719ad1cc022afc015eee4f857e68cb
+SHA512: 7ee426a05fa439835816f8685f1e887bc441ad88704cc7378d5e4c39dcaf491a0f11250662a4ed5d4402819c546b9bac9b6cc1e6b4d58eb620bdae8949565fe3
 
 Package: qt5-qtsensors
 Architecture: aarch64
@@ -176,12 +362,42 @@ Version: 5.15.3
 Homepage: https://www.qt.io/
 Depends: qt5-qtbase, qt5-qtdeclarative
 Description: Qt 5 Sensors Library
-Filename: dists/termux/extras/binary-aarch64/qt5-qtsensors_5.15.3_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtsensors_5.15.3_aarch64.deb
 Size: 133484
 MD5Sum: 6986d30a27e1d804e7937f26a61b1f36
 SHA1: eb1ec51a0f4899496855c98ea3c3655199ff7cc2
 SHA256: 39e177a15a17cc9b6a98d10aec97f7b477085181911a6185348bea90ecc8ef76
 SHA512: 636f4a69ac45befbce4285b2fc0cbf1195c833f4c6e1daa9d1369fc8ac15b897136fc19597f36e58e11c1c2bb1640a0b98c7a2bdb67cc80933c05a31683ae92d
+
+Package: qt5-qtsensors
+Architecture: aarch64
+Installed-Size: 1408
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: libc++, qt5-qtbase, qt5-qtdeclarative
+Description: Qt 5 Sensors Library
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtsensors_5.15.7_aarch64.deb
+Size: 133800
+MD5Sum: 1cc8bc09fcbb793e7f645cd7ce236e02
+SHA1: 1c09085053bcf4552c78cbf144234fa420bfac60
+SHA256: d0b4524a4f0e6bf1e940cc967f2a2f954d63fd8cf39cda6047026f90d6457e0a
+SHA512: 4cf6759be242edcace76606cc041dbe21edb7e6a467006f6ab1ecafbe20db6949cb429c61b48a0ceb625f01832add597beb5a62085b133065a6b8ab232ef8a27
+
+Package: qt5-qtserialport
+Architecture: aarch64
+Installed-Size: 296
+Maintainer: @termux
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: libc++, qt5-qtbase
+Description: Qt Serial Port Library
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtserialport_5.15.7_aarch64.deb
+Size: 34600
+MD5Sum: 3b23a4ed596dbe1060bdd75e75bee092
+SHA1: f40f08438fe6e735132c12a6574cf3b714b49b1f
+SHA256: 95fca441d8e16fa06dd3d2d34a76c3188b7dc88fdf3c6162c6e679c440f1a368
+SHA512: 11e64b0916138e36fe5402f6802d025ac926fe8884b0240c6e5ea553cc38174c461958be665f64db1301d656061fadedb8886d027da2660e1151b6f9fb2b01af
 
 Package: qt5-qtsvg
 Architecture: aarch64
@@ -191,12 +407,27 @@ Version: 5.15.3
 Homepage: https://www.qt.io/
 Depends: qt5-qtbase
 Description: Qt SVG Library
-Filename: dists/termux/extras/binary-aarch64/qt5-qtsvg_5.15.3_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtsvg_5.15.3_aarch64.deb
 Size: 111732
 MD5Sum: 436364ded0c63c93089c39e7a874e14d
 SHA1: d8f6e93e7a8f4d704997b73135b8b3b3345ff5fe
 SHA256: 160e242f31d53307aba2358f61910cd47fffe94026c95c35984e791cb44e477a
 SHA512: d555bea54dd1b59383a4eb99f77b9d08580164c6b53bfe80586dc5cee2d7cf775ebfea3c6923b21a4a5b6db628761d571ed604e771a8f4757915f5c5b63ef3ea
+
+Package: qt5-qtsvg
+Architecture: aarch64
+Installed-Size: 668
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: libc++, qt5-qtbase
+Description: Qt SVG Library
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtsvg_5.15.7_aarch64.deb
+Size: 112996
+MD5Sum: d453e8a93e810d801fcfc0ce7a5e25f0
+SHA1: cc24a158fc51431cfb56f97e48a14bf46b9e25d9
+SHA256: 36e91017c7c984ba2cac422d12c5fcbcb9e4c8306c7997a04b968846dc68c3cc
+SHA512: 3b991f1c4054b367e7e1a6433dcf5aab9d8b3ee25f91500933260658cd88f1b15daa32386dda84a5f2f2b02ac9833ead4029a29db423960a19ea31480d99b982
 
 Package: qt5-qttools-cross-tools
 Architecture: aarch64
@@ -206,12 +437,27 @@ Version: 5.15.3-1
 Homepage: https://www.qt.io/
 Depends: qt5-qttools, qt5-qttools (= 5.15.3-1)
 Description: Tools from qttools module for cross build on the host machine
-Filename: dists/termux/extras/binary-aarch64/qt5-qttools-cross-tools_5.15.3-1_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qttools-cross-tools_5.15.3-1_aarch64.deb
 Size: 983336
 MD5Sum: 8d67d53554d6846696453b88a79012f5
 SHA1: 08010513e8cc7a3bb65c9d66ef3dcb3f43cb5e9e
 SHA256: 6ab7d73e6a8b6df7827ac7a4625eef24c374ee70ecf3149e7b9e0861248ee6b3
 SHA512: 255c939b38f7789a97432d3653c00ca81ac69ea387791ef6937adaee30300ecdf5b260bfe4dbd013dd3cc4e9b5227c05cff2e4843552ecf7ceba712b163bad2a
+
+Package: qt5-qttools-cross-tools
+Architecture: aarch64
+Installed-Size: 7812
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: qt5-qttools, qt5-qttools (= 5.15.7)
+Description: Tools from qttools module for cross build on the host machine
+Filename: dists/termux/qt5/binary-aarch64/qt5-qttools-cross-tools_5.15.7_aarch64.deb
+Size: 983396
+MD5Sum: 0b462b294f0ce8477a2d430e81ba0161
+SHA1: ef16583300b5496da181bca640c90b008826cfef
+SHA256: f4620c03d0d18897fd12d7c849d37ee6344d9249a54d26e91a1dc8a897d1e212
+SHA512: 3a956ebc32c602cdfee13afd2245548c9138f978795b90b59bbbbb136014ad6aad7da7038f156529302d9c3fc90279c04a725f9e1f3969c196027147341bc9ac
 
 Package: qt5-qttools
 Architecture: aarch64
@@ -222,12 +468,28 @@ Homepage: https://www.qt.io/
 Depends: qt5-qtbase, qt5-qtdeclarative
 Replaces: qt5-tools
 Description: Qt Development Tools (Linguist, Assistant, Designer, etc.)
-Filename: dists/termux/extras/binary-aarch64/qt5-qttools_5.15.3-1_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qttools_5.15.3-1_aarch64.deb
 Size: 4806772
 MD5Sum: 3b9da7731270edfad098d0628c161505
 SHA1: f3d3b01f5a742ee5e65b7084d964375416f705c1
 SHA256: eb0a0512b46f9c2e09a5add557c9e78dc009f59a4b2fea9dafd075a0eab8dfd8
 SHA512: d5127c2f555d3bc6f34b3276f0175fe6379b8b0d4755ea4ff73e35e4593a07082eba68c5c95eed9499aea522d0cd6ac3b2135c63fffd8b4607038d39d596825d
+
+Package: qt5-qttools
+Architecture: aarch64
+Installed-Size: 21236
+Maintainer: Simeon Huang <symeon@librehat.com>
+Version: 5.15.7
+Homepage: https://www.qt.io/
+Depends: libc++, qt5-qtbase, qt5-qtdeclarative
+Replaces: qt5-tools
+Description: Qt Development Tools (Linguist, Assistant, Designer, etc.)
+Filename: dists/termux/qt5/binary-aarch64/qt5-qttools_5.15.7_aarch64.deb
+Size: 4843344
+MD5Sum: 57325338998108ce6ceecbfe35649e9d
+SHA1: cd5750712bf94e2eebbb8af7ad9a60c471315bdf
+SHA256: 125ac0132153fbb6673c913e8f45935f3cdf465d1862231046b07b84184b9248
+SHA512: ee24ec6085660de7222c80505238f2ad8df1180d2119d14f9fbf291f6a5226a7ee8bdc0cec674c1c7160f745ef6504d645920add54752c7ec49efbf5536a54f2
 
 Package: qt5-qtwebchannel
 Architecture: aarch64
@@ -237,7 +499,7 @@ Version: 5.15.3
 Homepage: https://www.qt.io/
 Depends: qt5-qtbase, qt5-qtdeclarative, qt5-qtwebsockets
 Description: Qt 5 WebChannel Library
-Filename: dists/termux/extras/binary-aarch64/qt5-qtwebchannel_5.15.3_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtwebchannel_5.15.3_aarch64.deb
 Size: 57344
 MD5Sum: 65e13b38c395af972d4904cfec720e35
 SHA1: 5cf6764cfb287931027ca501579c4158d609cfac
@@ -252,7 +514,7 @@ Version: 5.212.0-alpha4-9
 Homepage: https://github.com/qtwebkit/qtwebkit
 Depends: qt5-qtbase, qt5-qtdeclarative, qt5-qtlocation, qt5-qtmultimedia, qt5-qtsensors, zlib, libxslt, libxcomposite, libhyphen, libwebp, libicu
 Description: Qt 5 WebKit Library
-Filename: dists/termux/extras/binary-aarch64/qt5-qtwebkit_5.212.0-alpha4-9_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtwebkit_5.212.0-alpha4-9_aarch64.deb
 Size: 7401524
 MD5Sum: c03c6309048b35828a8340c0b6996462
 SHA1: 9228b1945a687b014c41a5a9656ac9c81f930ef7
@@ -267,7 +529,7 @@ Version: 5.15.3
 Homepage: https://www.qt.io/
 Depends: qt5-qtbase, qt5-qtdeclarative
 Description: Qt 5 WebSockets Library
-Filename: dists/termux/extras/binary-aarch64/qt5-qtwebsockets_5.15.3_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtwebsockets_5.15.3_aarch64.deb
 Size: 64368
 MD5Sum: 1d05db2c68e7280af4a80849ea327142
 SHA1: 418614813786fb7cb33203c05efea6342ae24a8f
@@ -283,7 +545,7 @@ Homepage: https://www.qt.io/
 Depends: qt5-qtbase
 Replaces: qt5-x11extras
 Description: Qt X11 Extras enables the Qt programmer to write applications for the Linux/X11 platform
-Filename: dists/termux/extras/binary-aarch64/qt5-qtx11extras_5.15.3_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtx11extras_5.15.3_aarch64.deb
 Size: 10228
 MD5Sum: 22ccc57b7956f44436999936129a1ffe
 SHA1: 1e9f076264d5d830d25a4d8dfdb996a581d6f0e1
@@ -298,7 +560,7 @@ Version: 5.15.3
 Homepage: https://www.qt.io/
 Depends: qt5-qtbase, qt5-qtdeclarative
 Description: Qt XmlPatterns Library
-Filename: dists/termux/extras/binary-aarch64/qt5-qtxmlpatterns_5.15.3_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5-qtxmlpatterns_5.15.3_aarch64.deb
 Size: 974400
 MD5Sum: 3c67a1e6cda28ba4142eda603dfb1225
 SHA1: 916683eb1be3ceb2cb8458c3cd10849a21e37d7c
@@ -313,7 +575,7 @@ Version: 1.3-1
 Homepage: https://sourceforge.net/projects/qt5ct
 Depends: qt5-qtbase, qt5-qtsvg
 Description: Qt5 Configuration Tool
-Filename: dists/termux/extras/binary-aarch64/qt5ct_1.3-1_aarch64.deb
+Filename: dists/termux/qt5/binary-aarch64/qt5ct_1.3-1_aarch64.deb
 Size: 172320
 MD5Sum: b9364dcc9d7e29a56c3d5de9720f5fef
 SHA1: cf1ad2e27a03e5bea9a1f59adb1176b96d3d0b03
